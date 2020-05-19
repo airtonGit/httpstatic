@@ -1,1 +1,0 @@
-docker run --rm -it -v %GOPATH%\src\github.com:/go/src/github.com -v %cd%:/go/src/httpstatic -w /go/src/httpstatic -e GOOS=linux -e GOARCH=386 golang:1.12.4 go build -v
